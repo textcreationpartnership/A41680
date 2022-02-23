@@ -1,0 +1,728 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Academy of complements, or, A new way of wooing wherein is variety of love-letters, very fit to be read of all young men and maids, that desire to learn the true way of complements.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1685</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 34 KB of XML-encoded text transcribed from 13 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A41680</idno>
+            <idno type="STC">Wing G1407</idno>
+            <idno type="STC">ESTC R40502</idno>
+            <idno type="EEBO-CITATION">19341412</idno>
+            <idno type="OCLC">ocm 19341412</idno>
+            <idno type="VID">108724</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A41680)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 108724)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1671:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Academy of complements, or, A new way of wooing wherein is variety of love-letters, very fit to be read of all young men and maids, that desire to learn the true way of complements.</title>
+                  <author>J. G. (John Gough), fl. 1640.</author>
+               </titleStmt>
+               <extent>[24] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Thomas Passinger ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1685.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Illustrated t.p.</note>
+                  <note>Sometimes attributed to John Gough.</note>
+                  <note>Wing "fifth" edition.</note>
+                  <note>Imperfect: stained and tightly bound, with slight loss of print.</note>
+                  <note>Reproduction of original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Courtship --  England --  History --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-07</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2009-07</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:108724:1" rendition="simple:additions"/>
+            <pb facs="tcp:108724:1" rendition="simple:additions"/>
+            <p>THE ACADEMY OF COMPLEMENTS: Or, <hi>A new way of Wooing.</hi> Wherein is variety of Love-Letters, very fit to be read of all Young Men and Maids, that deſire to learn the true way of Complements.</p>
+            <lg>
+               <l>Love with his Golden Arrow wounds the heart,</l>
+               <l>To cure it learn this <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> way of <hi>Lovers</hi> Art.</l>
+            </lg>
+            <figure/>
+            <p>
+               <hi>London,</hi> Printed for <hi>Thomas Paſſinger</hi> at the Sign of the Three Bibles on <hi>London-Bridge,</hi> 168<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>.</p>
+         </div>
+      </front>
+      <body>
+         <head>
+            <pb facs="tcp:108724:2"/>
+            <hi>The Academy of Complements,</hi> OR, A Neat way of Wooing.</head>
+         <div type="letter">
+            <head type="sub">A Letter of Complements to a fair young Gentlewoman.</head>
+            <opener>
+               <salute>Miſtreſs,</salute>
+            </opener>
+            <p>
+               <hi>FOr me to expreſs over your beauty which hath been done by many, would appear a rude bold<g ref="char:EOLhyphen"/>neſs, I will therefore acknowledge that my skill in blazing your precious perfections, cannot come near your worth, and that it is fitter for me to admire a far off your excellencies, than to make my addreſſes too near, ſince all that I can perform in the way of Writing, is but a ſhadow, a piece of that beauty which you glory in, and which</hi> Venus <hi>beholding would bluſh even to paleneſs, finding her ſelf ſo far exceeded. Your perſon is able to make the rugged brow of Winter ſmooth as the Spring: while the drooping Flowers would lift up their withered heads, and the deceived Birds (thinking that Summer was come) would ſit and ſing on the warm Boughs, and all for joy of your approaching to them: Thus nature doth rejoyce to behold you, who are the joy of my heart: Thus ſubſcribed</hi>
+            </p>
+            <closer>
+               <signed>Yours, not his own, <hi>B.</hi> M.</signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <pb facs="tcp:108724:2"/>
+            <head>The Gentlewomans Anſwer.</head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>IF you did attribute theſe praiſes unto me out of Judgment, it would appear a great weak<g ref="char:EOLhyphen"/>neſs in you, but I know that led on by a fancy you have thus Complemented your ſelf into an error, and think to make me believe more of my ſelf than my modeſty will permit. Sir, alaſs! my eyes are full of my own wants, and by your praiſes I find out my own perfections, wanting that which you aſcribe to me: may I carry a fair mind in my breaſt, and I care not for out<g ref="char:EOLhyphen"/>ward beauty, ſome other might be taken with your praiſes, which I imagine are the effects of paſſion, not reaſon: But I ſhall deſire you to pardon me, if I return you no thanks for your flattering Complements, 'tis beſt to write truth. A natural kind of ſweetneſs doth move beſt, and in ſuch honeſt addreſſes of Love I ſhall re<g ref="char:EOLhyphen"/>gard your affection.</p>
+            <closer>
+               <signed>Your humble friend, J. M.</signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <head>A Lover to his Miſtreſs.</head>
+            <opener>
+               <salute>Bright Lady,</salute>
+            </opener>
+            <p>I <hi>Am now in love with my own eyes, and wit, for were not the firſt exceeding good, they could not endure the luſtre of your beauty, and I am apt to believe the latter may be ſharp, ſince it hath ſo exact a Character of your worth. Be more
+<pb facs="tcp:108724:3"/>juſt to your ſelf and me, then to think I flatter you; look into your ſelf, and then you will wrong nei<g ref="char:EOLhyphen"/>ther, and when you find I have done you right, call not my affection in queſtion for making the diſcovery, ſince it is my duty to ſerve you and truth in all things honourable, but if in my com<g ref="char:EOLhyphen"/>mending my own ſervices I am ſo preſumptuous as to exceed your pleaſure, let your pity ſeal my pardon, ſince my default was only the defect of love, and I ſhall doubly be engaged to be, Madam,</hi>
+            </p>
+            <closer>
+               <signed>Yours, now and ever, R. P.</signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <head>The Anſwer, A Lady to her Lover.</head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>YOU do well to love your own eyes, and wit and I will own the firſt to be good and the latter ſharp, but if they both went toge<g ref="char:EOLhyphen"/>ther as you place them, your brains might be on the outſide of your head, and then if you prove miſtaken, blame your ſelf, your eyes, your wit, and not me, but that I may be juſt to you, where there is no fault, there is no need of pardon, though the worth of ones affections oftentimes appear more in words than in rea<g ref="char:EOLhyphen"/>lity: however, if you will take the liberty and trouble to commend me, I muſt and will claim the privilege to ſubſcribe my ſelf, Sir,</p>
+            <closer>
+               <signed>Your obliged ſervant, S. D.</signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <pb facs="tcp:108724:3"/>
+            <head>A rich old Gentleman to a fair young virgin.</head>
+            <opener>
+               <salute>Young Lady,</salute>
+            </opener>
+            <p>
+               <hi>LEt not my years be an obſtacle to your love, ſince I have thoſe gifts of Fortune, that will not only maintain our affections, and keep the fire of love in a continual flame, but will alſo afford you all thoſe Ornaments which he hath deſigned for the adorning ſuch tender and beautiful Birds of Nature: Beſides, though I come not to you with a powdered Lock, or in the Mode of a young Gallant, yet know, my Girl, my zeal for you can be as hot, and as ſincere, as the ſpruceſt pretenders in the World: and if age doth make me ſeem in your apprehenſion as a withering Tree, yet I have Gold which will keep its colour, and it is that which in this world is ones beſt friend: pray have me in your thoughts, and I ſhall watch for an op<g ref="char:EOLhyphen"/>portune ſeaſon, wherein I may make my ſelf farther known to be, farireſt Lady,</hi>
+            </p>
+            <closer>
+               <signed>Your moſt affectionate Servant, R. K.</signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <head>The Anſwer. A beautiful young Virgin, to a decrepid, rich, old Gentleman.</head>
+            <opener>
+               <salute>Grave Sir,</salute>
+            </opener>
+            <p>YOu are too far diſtant from me in years to be admitted into my affection, ſince you are arrived to the pitch of dotage, and I yet ignorant of what is love; However, I muſt do you ſo much juſtice as to commend your diſ<g ref="char:EOLhyphen"/>cretion
+<pb facs="tcp:108724:4"/>for fiſhing with a Golden bait, for be<g ref="char:EOLhyphen"/>lieve me, next to beauty, I cannot imagine any thing to be more taking among Mortals, than the glorious name of wealth: I could be content to keep my Coaches, my Pages, my Lacqueys and Maids; but I confeſs I could never endure, the ſociety of a bald pate: How can you think, Reverend Sir, that I ſhould love you, when by the temptations which you offer, you clearly manifeſt your Opinion, that if I ſhould marry it muſt be to your Gold, rather than to you? I confeſs a ſilver Mine is a pretty toy for a thing of my years to dote on, but I have a Childliſh humour peculiar to my ſelf, that is never to humble my affections ſo, as that they ſuffer trea<g ref="char:EOLhyphen"/>ſure, as a load-ſtone, to draw me to its beck. 'Tis true, wealth will be welcome to me to maintain my train, but the perſon of that more lovely Creature, Man, will be ever more welcome to a Maids imbraces. Can you think me ſo weak, as to exchange the flower of my youth for a bundle of Snow, or rotten dirt? No Sir, Gold with a Man is good, admirable good, but it is a man that in the School of Love paſſes for the prin<g ref="char:EOLhyphen"/>cipal verb: for my own part, rather than joyn my ſelf to a mear wedge of Gold I ſhall choſe to accept of a bundle of rags, ſo they have any affinity to a Man.</p>
+            <lg>
+               <l>
+                  <hi>Old-men are Grey, Old-men are grey:</hi>
+               </l>
+               <l>
+                  <hi>I am a luſty bonny young Laſs,</hi>
+               </l>
+               <l>
+                  <hi>And I prethee Old-man away.</hi>
+               </l>
+            </lg>
+            <pb facs="tcp:108724:4"/>
+            <p>By this time good Old man you know my mind, be wiſe, and Wed your ſelf to Heaven, and I ſhall thank you if in your Death you re<g ref="char:EOLhyphen"/>member to bequeath your Gold to</p>
+            <closer>
+               <signed>Your young Adviſer. <hi>M. M.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <head>A Gentlewoman being unjuſtly charged by her Husband, for having too much familiarity with a Gentleman, with whom ſhe never had any diſhoneſt compliance, (to aſſwage her Husbands jealouſie) does thus admoniſh the Gentleman to refrain her houſe and ſociety.</head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>
+               <hi>IT is not with bluſhes, but tears, that I pre<g ref="char:EOLhyphen"/>ſume to write unto you, for indeed it grieves me to publiſh my Husbands folly, which by duty I am bound to conceal, neither had I attempted it, but that grief and neceſſity throws me on this exigent; for ſo it is, that my unſpotted chaſtity is not capable to defend him from jealouſie, which makes me as much triumph in my own Loyal<g ref="char:EOLhyphen"/>ty, as I grieve at his ingratitude, and not con<g ref="char:EOLhyphen"/>tent to wrong me, his folly, or rather his frenzy hath reflection on you, whom he takes to be both the object and cauſe thereof; but as your innocen<g ref="char:EOLhyphen"/>cy can juſtly warrant and defend my honour and your honour, my innocency from the leaſt ſhadow of that Crime, ſo that we may both indeavour ra<g ref="char:EOLhyphen"/>ther to quench than inflame this irrigularity, I moſt humbly beſeech you to refrain our houſe
+<pb facs="tcp:108724:5"/>and neither to viſit me, nor be familiar with him and ſo peradventure time may wear away from his thoughts, that which at preſent truth and rea<g ref="char:EOLhyphen"/>ſon cannot; your eloquent vertues, and true Ge<g ref="char:EOLhyphen"/>neroſity, aſſure me of this courteſie, which I will repay with thanks, and requite with prayers, that your days may be as infinite as your perfections, and your fame as glorious as your merits, ſo prays, Noble Sir,</hi>
+            </p>
+            <closer>
+               <signed>The honourer of your Vertues, and lover of your worth, <hi>O. R.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <head>His Anſwer.</head>
+            <opener>
+               <salute>Noble and vertuous Lady,</salute>
+            </opener>
+            <p>Your Vertues, and my Conſcience, make us as unworthy of your Husbands jealouſie, as he of ſo chaſte a wife as your ſelf, and ſo true a friend as I am: but as your affection to him hath ſtill ſhined in your loyalty, ſo it muſt now in your Patience, ſince he in this baſe paſſion of his, ſeeking his own ſhame, will at laſt aſſured<g ref="char:EOLhyphen"/>ly find out your glory: Had his folly revealed me ſo much as your diſcreet Letter, I would have exchanged my pen to a Sword; and with the hazard of my life, and loſs of my deareſt blood, made known as well to him as to the whole World, the truth both of your Chaſtity and Honour, and of mine Honour and Innocen<g ref="char:EOLhyphen"/>cy. In the mean time I will both embrace and obey your requeſt, and will manage it with
+<pb facs="tcp:108724:5"/>ſuch obſervance to your Husband, ſuch reſpect to your Vertues, and ſuch regard to mine own Reputation, as I hope he ſhall reſt ſatisfied of your Chaſtity towards himſelf, and of mine to you, otherwiſe I Prize Ladies of your reſpecti<g ref="char:EOLhyphen"/>on, at ſo high a rate, and ſet one of his hu<g ref="char:EOLhyphen"/>mour and inclination at ſo low an eſteem, that I will know how to anſwer his choler with con<g ref="char:EOLhyphen"/>tempt, and to requite your diſcretion, both with Admiration and Praiſe. Madam,</p>
+            <closer>
+               <signed>Your affectionate honourer in all noble Eſſays, E. G.</signed>
+            </closer>
+         </div>
+         <div type="discourse">
+            <head>A merry, but civil diſcourſe betwixt <hi>Roger</hi> and <hi>Kate,</hi> ſitting up late together.</head>
+            <sp>
+               <speaker>Roger.</speaker>
+               <p>
+                  <hi>IT is time,</hi> Kate, <hi>that I ſhould now diſcover my mind unto you; we have long been Servants together, and ever ſince my firſt coming I have born you good will, which I would deſire you to accept, and grant me your love.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Kate.</speaker>
+               <p>For that you muſt pardon me, for I do not intend to marry, and therefore, let that ſerve for an excuſe, ſince I would be loth to diſ<g ref="char:EOLhyphen"/>courage you, and ſay I cannot love you.</p>
+            </sp>
+            <sp>
+               <speaker>Roger.</speaker>
+               <p>
+                  <hi>I hope you will not, for ſince I beheld you I have admired your perfections.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Kate.</speaker>
+               <p>You know affection cannot be com<g ref="char:EOLhyphen"/>pell'd, therefore I thank you for the good will which you have hitherto born, but as for your love I cannot accept of it.</p>
+            </sp>
+            <pb facs="tcp:108724:6"/>
+            <sp>
+               <speaker>Roger.</speaker>
+               <p>
+                  <hi>Then I perceive you love ſome other.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Kate.</speaker>
+               <p>I deſire you to excuſe me, I cannot frame my mind to fancy you, though I know you de<g ref="char:EOLhyphen"/>ſerve my betters, but for me to ſettle affection where I cannot love, would be an endleſs miſe<g ref="char:EOLhyphen"/>ry: the <hi>Bryer</hi> and the <hi>Honey-ſuckle</hi> can't agree.</p>
+            </sp>
+            <sp>
+               <speaker>Roger.</speaker>
+               <p>
+                  <hi>Then you compare me to a Bryer, but I will with all humility put up your disdain, ho<g ref="char:EOLhyphen"/>ping that the continuance of my love ſhall ſoften your mind to receive me into ſome degree of fa<g ref="char:EOLhyphen"/>vour, for I proteſt I love you intirely.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Kate.</speaker>
+               <p>The utmoſt that I can do for you in requital of your love, is to give you thanks and counſel to ſuppreſs your deſire, and not to proceed any further in this fuit, which at laſt will become fruitleſs.</p>
+            </sp>
+            <sp>
+               <speaker>Roger.</speaker>
+               <p>
+                  <hi>I ſhall be ſorry then, by this Kiſs which I preſume to take, none hath power over me but your ſelf; I love you all over, and if you would licenſe my hand to ſtray about, how happy ſhall I be?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Kate.</speaker>
+               <p>Nay, then I perceive your love is but raſh and wanton deſire, neither can I ſtay with you any longer, leſt my abſence out of my Mi<g ref="char:EOLhyphen"/>ſtriſſes Chamber may breed ſome ſuſpicion.</p>
+            </sp>
+            <sp>
+               <speaker>Roger.</speaker>
+               <p>
+                  <hi>Nay, I will hold you in the Priſon of my Arms, and if you will get your freedom, you ſhall yield me ſome of your ſweet kiſſes, which are but ſhadows of that ſubſtantial happineſs which you can afford me.</hi>
+               </p>
+            </sp>
+            <pb facs="tcp:108724:6"/>
+            <sp>
+               <speaker>Kate.</speaker>
+               <p>Nay, pray be not ſo rude, nor give me a cauſe to ſuſpect that your love is diſhoneſt, I had formerly a better opinion of you; but now I am jealous of your good intent.</p>
+            </sp>
+            <sp>
+               <speaker>Roger.</speaker>
+               <p>
+                  <hi>Pardon me, if Love hath made me to offend in ſome boyſterous actions.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Kate.</speaker>
+               <p>Come, let me be gone, I ſhall be angry if you hinder me.</p>
+            </sp>
+            <sp>
+               <speaker>Roger.</speaker>
+               <p>
+                  <hi>Sweet Rogue, I obey thy deſire, but let me prevail further with you at your next meeting.</hi>
+               </p>
+            </sp>
+         </div>
+         <div type="poem">
+            <head>On Love.</head>
+            <l>Love is a Game at Tables, where the Dye</l>
+            <l>Of Maids affection doth by fancy fly;</l>
+            <l>And if you take ſuch pleaſures in a blot,</l>
+            <l>'Tis ten to one if that you enter not.</l>
+            <l>But Gameſter you may ſafely venture,</l>
+            <l>When that your point is oppoſite to th' centre;</l>
+            <l>And watch your play for now and then</l>
+            <l>Do what you can, they will be learning Men.</l>
+         </div>
+         <div type="poem">
+            <lg>
+               <head>A Whimſie to his Miſtreſs.</head>
+               <l>
+                  <hi>Venus</hi> naked in her Chamber,</l>
+               <l>Wounds more deep than <hi>Mars</hi> in Armour.</l>
+            </lg>
+            <lg>
+               <head>Her Reply.</head>
+               <l>Which an Enemy you fear,</l>
+               <l>Book to it, ſee you come not there.</l>
+            </lg>
+            <lg>
+               <head>A Deſcription of true Love.</head>
+               <l>Two Hands, two Feet, two ears two eyes,</l>
+               <l>One Tongue, one Heart where love ne're dyes.</l>
+            </lg>
+         </div>
+         <div type="letter">
+            <pb facs="tcp:108724:7"/>
+            <head>A Lady to whom ſhe affects.</head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>I <hi>Should have been happy if Heaven had given me merits to deſerve your affections, ſince I hold it no great difficulty to afford you mine, but that we may diſcourſe with a little freedom, I will borrow ſo much time from my other affairs as to meet you, only I ſhall give this caution, that as I am a Virgin, you will ſhow your ſelf ſo far a Gentleman as not to offer any thing that may ſavour of incivility; pardon me, that I lay ſuch an injunction on you, it is not that I queſtion you are otherwiſe Noble but only what is commonly ex<g ref="char:EOLhyphen"/>pected from a Maiden that hath reſpect to her own modeſty and credit, and may therefore very well become, Sir,</hi>
+            </p>
+            <closer>
+               <signed>Your Friend and Servant, R. T.</signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <head>The Anſwer. The Lover to his Amorous Lady.</head>
+            <opener>
+               <salute>Dear Madam,</salute>
+            </opener>
+            <p>I Do ſo well underſtand my reſpect to you, that (Pardon my boldneſs if I ſay) your care was ſomewhat needleſs. Lady, it is you that I adore, and can you then imagine I would injure you, you that I would gladly make mine own and be proud of ſuch a Purchace; Again, my Birth is not ſo baſe as to tyrannize over Ladies, eſpe<g ref="char:EOLhyphen"/>cially you, the beſt of Ladies. When the Sky puts on her beſpangled Garments the glittering Stars, I will expect you with all the reverene<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb facs="tcp:108724:7"/>and ſubmiſſion due to your Noble merits, from, Divine Lady,</p>
+            <closer>
+               <signed>Yours if you think me worthy, R. P.</signed>
+            </closer>
+         </div>
+         <div type="song">
+            <head>A SONG.</head>
+            <lg>
+               <l>I am comfirmed a Woman can</l>
+               <l>Love this or that, or any Man;</l>
+               <l>To day her Love is melting hot,</l>
+               <l>To Morrow ſwears ſhe knows not what:</l>
+               <l>Let her but a new object find,</l>
+               <l>And ſhe is of another mind:</l>
+               <l>
+                  <hi>Then hang me Ladies at your door,</hi>
+               </l>
+               <l>
+                  <hi>If e'er I dote upon you more.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>And yet I love the fair own, Why?</l>
+               <l>For nothing but to pleaſe my Eye;</l>
+               <l>For he that's Muſical long,</l>
+               <l>When I am ſad to ſing a Song:</l>
+               <l>And for that fair and ſmooth-skin'd Dame,</l>
+               <l>I flatter to appeaſe my flame:</l>
+               <l>
+                  <hi>Then hang me Ladies at your Door,</hi>
+               </l>
+               <l>
+                  <hi>If e'er I dote upon you more.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>I give my fancy leave to range</l>
+               <l>In every face, to find a change;</l>
+               <l>The Black, the Brown, the Fair ſhall be</l>
+               <l>But Objects of Variety:</l>
+               <l>I Court you all to ſerve my turn,</l>
+               <l>But with ſuch flames as ſhall not burn:</l>
+               <l>
+                  <hi>Then hang me Ladies at your Door,</hi>
+               </l>
+               <l>
+                  <hi>If e'er I dote upon you more.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="letter">
+            <pb facs="tcp:108724:8"/>
+            <head>A Letter of Love from <hi>John Downright,</hi> to his Sweet-heart.</head>
+            <opener>
+               <salute>Sweet <hi>Suſan,</hi>
+               </salute>
+            </opener>
+            <p>
+               <hi>YOu know I am no Miller, and therefore will make no cogs with you; nor no Gameſter, and therfore will not play a falſe Card with you but as true as I live, I told you now that is the plain truth, and therefore believe it, for by my kerſon Soul, I do not hault with you, for at the laſt turn when I laſt danced with you, your hand gave ſuch a quitch to me heart, that it was ready to leap out of my mouth to deliver me mind to you, &amp; therefore I have gotten the School-maſter of our Town to write this to you; Now, if you be as you are, and I hope ſtill to be as kind to m<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> as I ſhall be to you, it ſhall not be long e'er it, come to that up-ſhot, that ſhall not in haſte he put back again; And therefore I pray you wear theſe Gloves that I ſend you, they coſt me two groats. I would then were better for you. So till I ſee you at the Wake the next Week, where I hope a good bargain ſhall not be long a making, when good ware ſhall be worth money, and an honeſt Man will take pains for his living, I reſt</hi>
+            </p>
+            <closer>
+               <signed>Your own Sweet-heart. <hi>J. D.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <head>Her Anſwer.</head>
+            <p>TRuly <hi>John,</hi> I know not what to ſay to you, but I would be loath that you ſhould be ſo ill, that I could not help you: but had I known your mind when I was laſt with you, I could
+<pb facs="tcp:108724:8"/>with more content have written to you; for I will tell you what: after you were gone from me, here came a youngſter unto me, that kept ſuch <gap reason="illegible" resp="#OXF" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſtir with me, that there was no ho, but he would have me. For by his troth he ſwore, and <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ll the troths that he could ſwear by, that, for <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>his whole year he hath had a months mind to <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e, and do what I could, I could not be rid of <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>im, before I did tell him that I could love him, <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd ſo indeed I could, if I had known him; for <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e was a handſome fellow, but being a Stranger <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e ſhould pardon me for the main chance. Now therefore yet <hi>John</hi> all is whole, and I am a true Maid, and ſince an honeſt Batchelor is worthy of a good Wench, without Cogs or Cards, by my <hi>Holidum</hi> I ſwear, there ſhall be no <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ove loſt betwixt true hearts; but I am my Fa<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hers jewel and you are your Mothers joy; and therefore if they will think well of the matter, I hope it ſhall be as it will be; for your Gloves I thank you, but why are you at ſuch charges with me? but 'tis no matter, there will be more gotten or loſt by that time, ere the bargain be made up: at the wake I hope to meet you, and therefore be not aſleep when you ſhould be there. I will have a trick to get my Father thither, and if you can bring your Mother, I hope we ſhall make a merry day. Farewel.</p>
+            <closer>
+               <signed>Thine own if good hap hit, <hi>M.J.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:108724:9"/>
+            <head>What Love is.</head>
+            <lg>
+               <l>Love is a blinded God, and angry Boy;</l>
+               <l>A ſlave to beauties will, a witleſs toy.</l>
+               <l>A Ravening Bird, a Tyrant moſt unjuſt;</l>
+               <l>A private Hell, a very Sea of luſt.</l>
+            </lg>
+         </div>
+         <div type="letter">
+            <head>A Love Letter to a moſt worthy Gentle<g ref="char:EOLhyphen"/>woman.</head>
+            <p>
+               <hi>FAir Creature, to tell you I love you, were <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> phraſe of too plain a faſhion, and yet when truth is indeed the beſt eloquence, affection needs no invention to expreſs the care of her contents which being in the Letters, makes a word ſoon to be read, which being</hi> Y, O, U, <hi>nothing doubting your ſpelling, I hope you will ſo kindly put toge<g ref="char:EOLhyphen"/>ther, that a conjunction of Love ſhall have no ſe<g ref="char:EOLhyphen"/>paration during Life; and thus beſeeching you to learn this Leſſon by heart, without a croſs i<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> conceit, to hinder the courſe of Loves comfort, t<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> I hear from you in that nature that may make me a happy Creature, I reſt,</hi>
+            </p>
+            <closer>
+               <signed>Yours wholly and only, if you will, T. H.</signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <head>Her Anſwer.</head>
+            <p>KInd Sir, to tell you I love you, were to croſs an Anſwer with a comfortable requeſt, &amp; yet when diſſimulation is the worſt fruits o<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> invention, diſcretion may be pardoned in con<g ref="char:EOLhyphen"/>cealing of Love; touching your Letters, they are ſooner read than underſtood, while imagi<g ref="char:EOLhyphen"/>native hopes may be deceived in their hap<g ref="char:EOLhyphen"/>happineſs
+<pb facs="tcp:108724:9"/>and yet to avoid all touch of ingrati<g ref="char:EOLhyphen"/>tude, in that nature of kindneſs that may give honour content, as a ſimple Scholar in the art of Love, loth to have that by heart that may trouble more than my head; when ſeparations of Conjunctions may endanger the Death of Comfort, wiſhing nothing amiſs to them that mean well: I reſt,</p>
+            <closer>
+               <signed>Yours, as I may be mine own, F. S.</signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <head>An Old Mans Letter to a Young Widow,</head>
+            <p>
+               <hi>WIdow, I have neither a ſmooth-Face, nor a filed Longue to clear your Eyes, nor abuſe your Ears withal; but a true heart and a conſtant mind that doth inwardly love you, and will never deceive you; fickle heads, and unbridled wills, know not where or how to beſtow themſelves when their Wits go a Wool-gathering, among ſhrews that have had fleeces; they may be kind, but not conſtant; and love loves no out-lookers, but be<g ref="char:EOLhyphen"/>ſides, light heads have no ſtayed heels, and a little wealth is ſoon ſpent. Who knoweth the woe of want, can tell you the difference between an Old Mans darling, and a Young Mans Warling: Why? how can they love, that ſcarce know how to like? I know you have many Suitors of worth, but none that I think more worthy than myſelf: for none can love you ſo much, nor eſteem you ſo well; for I have known the World, <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> are not
+<pb facs="tcp:108724:10"/>for it, nor for any thing but you. If therefore all I have may pleaſe you, and myſelf to love and ho<g ref="char:EOLhyphen"/>nour you, make my comfort your contentment, and I will ſeek no other Paradiſe in the World. Thus hoping that reaſon in your favour will effect the hope of my affection, leaving you to your ſelf, to be your ſelf, I reſt</hi>
+            </p>
+            <closer>
+               <signed>Yours, or not mine, <hi>J. C.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <head>Her Anſwer.</head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>I Could never ſee you but in a Letter, I ſhould delight much in your preſence, but contra<g ref="char:EOLhyphen"/>ries are not correſpondent. A gray head, and a green mind fit not, your perſwaſions were for<g ref="char:EOLhyphen"/>cible, were not your ſelf of too much weakneſs: but though for your good Will I thank you, yet for nothing will I be indebted to you, no not for a World would I be troubled with you; for as our years, ſo I fear our fancie will be indiffe<g ref="char:EOLhyphen"/>rent, and the patience moving choler may breed anger, when to be an Old mans Darling, is a kind of a curſe to nature. You ſay well, who can love that know not how to like? when the ſenſes are uncapable of their comfort, what is imagination but a Dream? A blind Man can judge no colour, A Deaf Man hath not skill in Muſick, a Dum Man no Eloquence, and an Old Man little feeling in lo<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es paſſion. For my Sui<g ref="char:EOLhyphen"/>tors they ſuit my time and ſerve their own, and
+<pb facs="tcp:108724:10"/>for their worth, I ſhall judge of the moſt wor<g ref="char:EOLhyphen"/>thy. Now for their wits, if they loſe not their own fleeces, let them gather wool where they can; but for your love, I will not venture on it, leſt being too old, it be not ſweet: and for my young Suitors, I hope I ſhall take heed of a ſha<g ref="char:EOLhyphen"/>downed ſowerneſs: As for fortune while vertue governs affection, I will not fear my felicity. So hoping your town reaſon will perſwade you to have patience with your paſſion, and leave me to my better comfort, meaning to be as you wiſh me, my ſelf, and no other, I reſt,</p>
+            <closer>
+               <signed>Not yours, if my own, <hi>P. M.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="poem">
+            <head>On Maids Inconſtancy.</head>
+            <l>SHall I weep, or ſhall I ſing?</l>
+            <l>I know not beſt which fits mourning.</l>
+            <l>
+               <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f I weep, I eaſe my brain,</l>
+            <l>
+               <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f I ſing, I ſweeten pain;</l>
+            <l>Weeping I'll ſing, and ſinging weep,</l>
+            <l>To ſee how Maids no love can keep.</l>
+         </div>
+         <div type="poem">
+            <head>On Virginity.</head>
+            <l>Jewels being loſt, are found again;</l>
+            <l>This never, this loſt but once, is loſt for ever.</l>
+         </div>
+         <div type="poem">
+            <head>To his Miſtreſs.</head>
+            <l>When firſt I ſaw thee, thou didſt ſweetly play</l>
+            <l>The gentle Thief, and ſtole my heart away;</l>
+            <l>Render me mine again, or leave thy own,</l>
+            <l>Two are too much for thee ſince I have none:</l>
+            <l>But if thou wilt not, I will ſwear thou art</l>
+            <l>A ſweet-fac'd Creature with a double heart.</l>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:108724:11"/>
+            <head>Poſies for Rings, and other pleaſant things.</head>
+            <l>As I expect ſo let me find,</l>
+            <l>A faithful heart, a conſtant mind.</l>
+            <l>God hath kept my heart for thee,</l>
+            <l>Grant that our love may faithful be.</l>
+            <l>God hath thee choſen a Mate for me,</l>
+            <l>I'll honour him in loving thee.</l>
+            <l>Such liking in my choice I find,</l>
+            <l>That none but Death ſhall change my mind.</l>
+            <l>Innumerable are the Stars I ſee,</l>
+            <l>But in my heart no Star like thee.</l>
+            <l>Had I not ſpoke,</l>
+            <l>My heart had broke.</l>
+            <l>I fancy none,</l>
+            <l>But thee alone.</l>
+            <l>Heart and Hand,</l>
+            <l>At your Command.</l>
+            <l>Where Hearts agree,</l>
+            <l>No ſtrife can be.</l>
+         </div>
+         <div type="song">
+            <head>A SONG.</head>
+            <lg>
+               <l>He that will court a wench that's coy,</l>
+               <l>that's proud, that 's peeviſh, and antick:</l>
+               <l>Let him be careleſs to ſport and toy,</l>
+               <l>And as peeviſh as ſhe is frantick:</l>
+               <l>Laugh at her, and ſlight her,</l>
+               <l>Flatter her, and ſpight her,</l>
+               <l>Rail and commend her again;</l>
+               <l>It is the way to woo her,</l>
+               <pb facs="tcp:108724:11"/>
+               <l>If that you mean to come cloſe to her</l>
+               <l>
+                  <hi>Such Girls will love ſuch Men.</hi>
+               </l>
+               <l>He that will court a Wench that is mild,</l>
+               <l>That is ſo ſoft and kind of behaviour;</l>
+               <l>Let him kindly wooe her,</l>
+               <l>Not roughly come to her,</l>
+               <l>'Tis the way to win her favour;</l>
+               <l>Give her Kiſſes plenty,</l>
+               <l>She'll take them were they twenty,</l>
+               <l>Stroak her and kiſs her again;</l>
+               <l>It is the way to wooe her,</l>
+               <l>If that you mean to come cloſe to her,</l>
+               <l>
+                  <hi>Such Girls do love ſuch men.</hi>
+               </l>
+               <l>He that will court a Wench that is mad,</l>
+               <l>That will ſqueak and cry out if you handle her,</l>
+               <l>Let him Kiſs and fling,</l>
+               <l>Till he makes the houſe ring,</l>
+               <l>'Tis the only way to tame her:</l>
+               <l>Take her up and towſe her,</l>
+               <l>Salute her and rouſe her,</l>
+               <l>Then kiſs her and pleaſe her again;</l>
+               <l>It is the only way to wooe her,</l>
+               <l>If that you mean to come cloſe to her,</l>
+               <l>
+                  <hi>Mad Girls do love Mad Men.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="song">
+            <head>Another Song.</head>
+            <l>My Miſtreſs loves no Woodcocks,</l>
+            <l>yet loves to pick the bones;</l>
+            <l>My Miſtreſs loves ſome Jewels,</l>
+            <l>and other Precious Stones.</l>
+            <pb facs="tcp:108724:12"/>
+            <l>My Miſtreſs loves no hunting,</l>
+            <l>yet loves to hear the Horn;</l>
+            <l>My Miſtreſs loves not <hi>Iriſh,</hi>
+            </l>
+            <l>yet loves to ſee men Born.</l>
+            <l>My Miſtreſs loves no Wreſtling,</l>
+            <l>yet loves to take a fall:</l>
+            <l>My Miſtreſs loves not all things,</l>
+            <l>yet loves my Maſter withal.</l>
+         </div>
+         <div type="poem">
+            <head>On the Repreſenting of a Noſegay of Roſes, with a Nettle in it.</head>
+            <l>Such is the Poſie love compoſes,</l>
+            <l>A ſtinging Nettle mixt with Roſes.</l>
+         </div>
+         <div type="poem">
+            <head>On the repreſenting of Ring with a Picture and a Jewel on it.</head>
+            <l>Nature hath fram'd a Gem beyond compare,</l>
+            <l>The World's the Ring, but you the Jewel are.</l>
+         </div>
+         <div type="poem">
+            <head>On the Preſenting of a pair of Gloves.</head>
+            <l>Theſe will keep your hands from burning,</l>
+            <l>Whilſt the Sun is ſwiftly turning:</l>
+            <l>But who can any veil deviſe</l>
+            <l>To ſhield my heart from your fair eyes.</l>
+         </div>
+         <div type="discourse">
+            <p>The Butler and the Chamber-Maid having paſ<g ref="char:EOLhyphen"/>ſed the night merrily, towards morning en<g ref="char:EOLhyphen"/>ter into a pleaſant diſcourſe, ad follows:</p>
+            <sp>
+               <speaker>Butler.</speaker>
+               <p>
+                  <hi>LOok, by this light day, the time has ſtoln from us ſtrangely.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Chamber-Maid.</speaker>
+               <p>By this light (ſayeſt thou) 'tis day? not by this, by t'other, 'tis indeed</p>
+            </sp>
+            <pb facs="tcp:108724:12"/>
+            <sp>
+               <speaker>Butler.</speaker>
+               <p>
+                  <hi>Thou art ſuch another piece of temp<g ref="char:EOLhyphen"/>tation, my Lord raves by this time for his cup of Purl.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Chamber-Maid.</speaker>
+               <p>Fye upon thee, thou art as fearful as a young Colt, bogleſt at every thing, as if Lovers had conſidered hours; I'll peep in.</p>
+            </sp>
+            <sp>
+               <speaker>Butler.</speaker>
+               <p>
+                  <hi>I am as weary of this Wench, as if I were married to her, ſhe hangs upon me like an Ape upon a Horſe, ſhe is as common too as a Barbers-glaſs, conceit too like Dye-dapper.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Chamber-Maid.</speaker>
+               <p>There's no body within, my Lady ſleeps this hour longer at the leaſt.</p>
+            </sp>
+         </div>
+         <div type="letter">
+            <head>A Letter of diſcontent after the falling out of two Lovers.</head>
+            <opener>
+               <salute>Moſt diſcourteous and painted Friend.</salute>
+            </opener>
+            <p>
+               <hi>IT's the cuſtom of Lovers after the breach of their League and amity, to ſend back thoſe Gratuires which formerly paſſed as Tokens of their natural affections. You have taken up the faſhion; and believe me, I abhor any longer to have nearneſs with one of your qualification, who for meer trifles can diſſolve the knot of Friend<g ref="char:EOLhyphen"/>ſhip, and ſhake hands with familiarity. For know hat your memory, which was ſomething dear in my thoughts, is now abhorr'd, ſeeing that the firmneſs and ſtability of affection, you have ſo careleſly brought to annihilation: I may paral<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>el my preſent condition to the ſtate of the Sun, when pitchy Clouds environing him round about ſeem to extinguiſh his ſplendor. But time, the
+<pb facs="tcp:108724:13"/>perfecter of all Terreſtial things may in due ſea<g ref="char:EOLhyphen"/>ſon impart a luſtre correſpondent to my hopes, and ſuitable to my diſpoſition, till when I will ſcorn the blaſts of adverſity, and all thoſe who ha<g ref="char:EOLhyphen"/>ving little or no merit, are endowed by the diſpen<g ref="char:EOLhyphen"/>ſation of the Owl-eyed Goddeſs</hi> Fortune, <hi>with large poſſeſſions. However, if I can find no better to converſe and ſpend my time with than your ſelf I will turn Momus, and for ever hate the ſocie<g ref="char:EOLhyphen"/>ty of Men, but having a better Opinion of the generality, I caſheer you with this</hi> Ultimum Va<g ref="char:EOLhyphen"/>le, <hi>and reſt</hi>
+            </p>
+            <closer>
+               <signed>A Stranger, <hi>T. P.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <head>A Virgin to her Parents, that would have her matched to one ſhe cannot love.</head>
+            <opener>
+               <salute>Moſt dear Parents,</salute>
+            </opener>
+            <p>I Beſeech you, let the Rules of nature be ſo prevalent with you, as not to marry me to the Man you deſign, but if you do reſolve that I ſhall marry, let it be to one that I ſhall love, or to my Grave: be not over-ruled by the thought of Avarice, leſt you become inhumane to your own blood, and make me</p>
+            <closer>
+               <signed>Your ſad, ſorrowful, and afflicted Daughter, <hi>L. C.</hi>
+               </signed>
+            </closer>
+         </div>
+         <trailer>
+            <hi>FINIS.</hi>
+            <pb facs="tcp:108724:13"/>
+         </trailer>
+      </body>
+   </text>
+</TEI>
